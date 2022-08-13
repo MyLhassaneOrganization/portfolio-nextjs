@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import logo from '../public/assets/h-d_Logo.png';
+import logo from '../public/assets/logo.png';
 import React from 'react';
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
