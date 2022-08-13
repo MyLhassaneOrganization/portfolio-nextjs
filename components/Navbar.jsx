@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import logo from '../public/assets/h-d_Logo.png';
 import React from 'react';
 import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
@@ -9,7 +10,7 @@ export default function Navbar() {
   return (
     <div className='fixed w-full h-20 shadow-xl z-[100]'>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-        <Image className="rounded-full" src="/../public/assets/h-d_Logo.png" alt="Logo" width="62" height="62" />
+        <Image className="rounded-full" src={logo} alt="Logo" width="62" height="62" />
         <div>
 
           <ul className='hidden md:flex'>
@@ -36,7 +37,7 @@ export default function Navbar() {
             <div className='fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'>
               <div>
                 <div className='flex w-full items-center justify-between'>
-                  <Image src="/../public/assets/h-d_Logo.png" className="rounded-full" width="56" height="56" alt="/" />
+                  <Image src={logo} className="rounded-full" width="56" height="56" alt="/" />
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                     <AiOutlineClose size={25} />
                   </div>
