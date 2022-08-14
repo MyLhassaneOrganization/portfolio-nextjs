@@ -12,9 +12,9 @@ const about = () => {
           <p className='py-3 text-gray-600'>Fascinated with how intricate programming ca be I was quickly drawn to learn more. I started learning JavaScript and was even more enthused with making websites interactive. I then started freelancing for e-commerce companies on the shopify platform. I am now spending my time building projects with React JS, Firebase, and learning new technologies.</p>
           <p className='py-3 text-gray-600 underline cursor-pointere'>Check out some of my latest projects. </p>
         </div>
-        <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+        <picture className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
           <img className='rounded-xl' src="../assets/about.jpg" alt="About Image" />
-        </div>
+        </picture>
       </div>
     </div>
   )
