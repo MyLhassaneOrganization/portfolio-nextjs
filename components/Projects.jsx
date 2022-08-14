@@ -1,11 +1,13 @@
 import React from 'react';
 import ProjectItem from './ProjectItem';
-import propertyImg from '/../assets/projects/property.jpg';
-import cryptoImg from '/../assets/projects/crypto.jpg';
-import netflixImg from '/../assets/projects/netflix.jpg';
-import twitchmg from '/../assets/projects/twitch.jpg';
 
 const projects = () => {
+
+let propertyImg = '/assets/projects/property.jpg';
+let cryptoImg = '/assets/projects/crypto.jpg';
+let netflixImg = '/assets/projects/netflix.jpg';
+let twitchmg = '/assets/projects/twitch.jpg';
+
   return (
     <div className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-6'>
