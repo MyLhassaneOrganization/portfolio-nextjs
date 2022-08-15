@@ -16,9 +16,9 @@ let twitchmg = '/assets/projects/twitch.jpg';
         <div className='grid md:grid-cols-2 gap-8'>
 
         <ProjectItem title='Property Finder' backgroundImg={propertyImg} projectUrl='/property' />
-        <ProjectItem title='Property Finder' backgroundImg={cryptoImg} projectUrl='/crypto' />
-        <ProjectItem title='Property Finder' backgroundImg={netflixImg} projectUrl='/netflix' />
-        <ProjectItem title='Property Finder' backgroundImg={twitchmg} projectUrl='/twitch' />
+        <ProjectItem title='Crypto App' backgroundImg={cryptoImg} projectUrl='/crypto' />
+        <ProjectItem title='Netflix UI' backgroundImg={netflixImg} projectUrl='/netflix' />
+        <ProjectItem title='Twitch UI' backgroundImg={twitchmg} projectUrl='/twitch' />
 
         </div>
       </div>
